@@ -13,7 +13,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Timer? timer;
   // pageView controller, 초기페이지 번호는 0
   final controller = PageController(initialPage: 0);
-  // 이미지 파일명 prefix 배열, PageView와 timer callback에서 사용하기 때문에 변수로 선언
+  // 이미지 파일명 suffix 배열, PageView와 timer callback에서 사용하기 때문에 변수로 선언
   final imageIndexes = ['a', 'b', 'c', 'd', 'f'];
 
   @override
